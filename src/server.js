@@ -22,7 +22,7 @@ app.use(express.urlencoded({extended: true}))
 app.use('/', routes)
 
 app.use((req, res) => {
-    res.send('Página não encontrada!')
+    res.send('Page not found!!!')
 })
 
 const port = process.env.PORT || 5500
