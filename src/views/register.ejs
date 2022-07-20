@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/head.ejs') %>
+
+    <body>
+        <h1><%= title %></h1>
+
+        <%- include('partials/navbar.ejs') %>
+
+        <form action="/register/add" method="POST">
+            <div>
+                <label>Name</label>
+                <input type="text" name="name" placeholder="Your name">
+            </div>
+            <div>
+                <label>Age</label>
+                <input type="number" name="age" placeholder="Your age">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Your email">
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" name="password" placeholder="Your password">
+            </div>
+            <button type="submit">Submit</button>
+            <br>
+            <% if(typeof message !=='undefined' ) { %>
+                <span class="messageSuccess">
+                        <%= message %>
+                </span>
+            <% } %>
+        </form>
+        <%- include('partials/ghost.ejs') %>
+        <%- include('partials/foot.ejs') %>
+        <script>
+            const containerGhost = document.querySelector('.container');
+            containerGhost.classList.add('containerGhost');
+        </script>
+    </body>
+
+</html>

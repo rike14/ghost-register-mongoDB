@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Impact', 'Helvetica';
+    color: white;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+      
+}
+
+h1 {
+    position: relative;
+    top:0;
+    text-align: center; 
+    font-size: 50px;
+    margin-bottom: 15%;
+}
+
+h1:hover{
+    top: -4px;
+    transition: all .2s ease-in-out;
+    color: rgb(172, 131, 131, 0.4)
+    
+}
+
+#navbar,#navbar li {
+    list-style: none;
+    display: flexbox;
+    text-align: center;
+    margin: 20px auto 0px auto;
+    font-size: 50px;
+    
+}
+
+#ulList li{
+    display: flexbox;
+    font-size: 24px; 
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+a, label {
+    position: relative;
+    top: 0;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+label {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+a:hover, label:hover {
+    top: -4px;
+    transition: all .2s ease-in-out;
+    background-image: url(../img/wall.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.changeToWhite:hover {
+    color: gray;
+    font-weight: 300;
+}
+
+.changeToRed:hover {
+    color: red;
+    font-weight: 300;
+}
+
+form{
+    display: inline-block;
+}
+
+form div{
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    display: flex;
+    color: black;
+}
+
+button {
+    border-radius: 50px;
+    width: 100px;
+    margin: 10px;
+    background-color: black;
+}
+
+button:hover {
+    top: -4px;
+    transition: all .2s ease-in-out;
+    background-color: rgb(172, 131, 131, 0.4);
+    cursor: pointer;
+}
+
+.container {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-left: -64.5px;
+    margin-top: -85.5px;
+}
+
+.containerGhost {
+    left: 90% !important;
+}
+
+.ghost {
+    animation: float 3s ease-out infinite;
+}
+
+@keyframes float {
+    50% {
+        transform: translate(0, 20px);
+    }
+}
+
+.shadowFrame {
+    width: 150px;
+    margin-top: 55px;
+}
+
+.shadow {
+    animation: shrink 3s ease-out infinite;
+    transform-origin: center center;
+
+}
+
+.messageSuccess {
+    color: green;
+}
+
+
+@keyframes shrink {
+    0% {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    50% {
+        width: 60%;
+        margin: 0 18%;
+    }
+
+    100% {
+        width: 90%;
+        margin: 0 5%;
+    }
+}

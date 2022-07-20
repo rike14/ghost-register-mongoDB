@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/head.ejs') %>
+
+    <body>
+        <h1><%= title %></h1>
+        <br>
+        <%- include('partials/navbar.ejs') %>
+        
+        <ul id="ulList">
+            <% users.forEach((user) => { %>
+                <li>
+                    <%= user.name  %>  -  Age: <%= user.age %>  -  Email: <%= user.email %> - 
+                    <a class="changeToWhite" href="/edit?id=<%= user._id %> ">[edit]</a>
+                    <a class="changeToRed" href="/remove/<%= user._id %> ">[delete]</a>
+                </li>
+            <% }) %> 
+        </ul>
+        <%- include('partials/ghost.ejs') %>
+        <%- include('partials/foot.ejs') %>
+        <script>
+            const containerGhost = document.querySelector('.container');
+            containerGhost.classList.add('containerGhost');
+        </script>
+    </body>
+
+</html>
