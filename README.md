@@ -8,25 +8,37 @@
 
 ## ⚙️ Features
 
-- [x] Home:
-    <h1 align="center">
-        <img alt="home" title="#home" src="./files/home.gif" width="90%"/>
-    </h1>
+- ## Home
 
-- [x] Register new user:
+    <br>
     <h1 align="center">
-        <img alt="register" title="#register" src="./files/register.gif" width="90%"/>
+        <img alt="home" title="#home" src="./src/public/files/home.gif" width="90%"/>
     </h1>
+    <br>
 
-- [x] Edit user:
-    <h1 align="center">
-        <img alt="edit" title="#edit" src="./files/edit.gif" width="90%"/>
-    </h1>
+- ## Register new user
 
-- [x] Delete user:
+    <br>
     <h1 align="center">
-        <img alt="delete" title="#delete" src="./files/delete.gif" width="90%"/>
+        <img alt="register" title="#register" src="./src/public/files/register.gif" width="90%"/>
     </h1>
+    <br>
+
+- ## Edit user
+
+    <br>
+    <h1 align="center">
+        <img alt="edit" title="#edit" src="./src/public/files/edit.gif" width="90%"/>
+    </h1>
+    <br>
+
+- ## Delete user
+
+    <br>
+    <h1 align="center">
+        <img alt="delete" title="#delete" src="./src/public/files/delete.gif" width="90%"/>
+    </h1>
+    <br>
 
 ---
 
