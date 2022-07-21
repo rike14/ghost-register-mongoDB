@@ -10,35 +10,27 @@
 
 - [x] Home
 
-    <br>
     <h1 align="center">
         <img alt="home" title="#home" src="./src/public/files/home.gif" width="90%"/>
     </h1>
-    <br>
 
 - [x] Register new user
 
-    <br>
     <h1 align="center">
         <img alt="register" title="#register" src="./src/public/files/register.gif" width="90%"/>
     </h1>
-    <br>
 
 - [x] Edit user
 
-    <br>
     <h1 align="center">
         <img alt="edit" title="#edit" src="./src/public/files/edit.gif" width="90%"/>
     </h1>
-    <br>
 
 - [x] Delete user
 
-    <br>
     <h1 align="center">
         <img alt="delete" title="#delete" src="./src/public/files/delete.gif" width="90%"/>
     </h1>
-    <br>
 
 ---
 
