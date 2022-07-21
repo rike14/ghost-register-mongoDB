@@ -8,7 +8,7 @@
 
 ## ⚙️ Features
 
-- ## [x] Home
+- [x] Home
 
     <br>
     <h1 align="center">
@@ -16,7 +16,7 @@
     </h1>
     <br>
 
-- ## [x] Register new user
+- [x] Register new user
 
     <br>
     <h1 align="center">
@@ -24,7 +24,7 @@
     </h1>
     <br>
 
-- ## [x] Edit user
+- [x] Edit user
 
     <br>
     <h1 align="center">
@@ -32,7 +32,7 @@
     </h1>
     <br>
 
-- ## [x] Delete user
+- [x] Delete user
 
     <br>
     <h1 align="center">
